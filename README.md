@@ -36,7 +36,7 @@ to see how it was done or rebuild it.
 
 | | |
 |---|---|
-| Original | *Goody*, Opera Soft, 1987 (ZX Spectrum, Amstrad CPC, MSX, PC). Designed by Gonzalo "Gonzo" Suárez |
+| Original | *Goody*, Opera Soft, 1987 (ZX Spectrum, Amstrad CPC, Amstrad PCW, MSX, MSX2, PC). Designed by Gonzalo "Gonzo" Suárez |
 | Remake | *Goody: The Remake*, Coptron Games, May 2005, freeware, unofficial. Made with **Fenix** (compiled to `.dcb`) |
 | Remake team | Programming and direction: José Javier Cárceles · Graphics: David Martínez Armesto and José Javier Cárceles · Music and sound: Álex Belencoso, Raúl Montón and José Javier Cárceles |
 | BennuGD2 | The remake was later adapted to **BennuGD2** (the successor of Fenix and BennuGD) and ships in its official repository, under [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
@@ -204,7 +204,7 @@ se ha hecho o volver a montarlo.
 
 | | |
 |---|---|
-| Original | *Goody*, Opera Soft, 1987 (Spectrum, Amstrad CPC, MSX, PC). Idea y diseño de Gonzalo "Gonzo" Suárez |
+| Original | *Goody*, Opera Soft, 1987 (ZX Spectrum, Amstrad CPC, Amstrad PCW, MSX, MSX2, PC). Idea y diseño de Gonzalo "Gonzo" Suárez |
 | Remake | *Goody: The Remake*, Coptron Games, mayo de 2005, gratuito, no oficial. Hecho con **Fenix** (compilaba a `.dcb`) |
 | Equipo del remake | Programación y dirección: José Javier Cárceles · Gráficos: David Martínez Armesto y José Javier Cárceles · Música y efectos: Álex Belencoso, Raúl Montón y José Javier Cárceles |
 | BennuGD2 | El remake se adaptó después a **BennuGD2** (sucesor de Fenix y de BennuGD) y está en su repositorio oficial, en [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
