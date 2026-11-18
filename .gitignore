@@ -1,0 +1,4 @@
+# GDI montados (se regeneran con g_build.sh)
+gdi*/
+*.o
+*.elf
