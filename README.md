@@ -120,8 +120,8 @@ These optimisations belong to the BennuGD2 port, so every game benefits from the
   they use 16 colours or fewer. That is 1 byte or half a byte per pixel instead of 2. Changing the palette
   only rewrites the palette, not the texture.
 - **VQ textures.** The port also supports vector-quantised compressed textures (`.dtx`, made with the
-  `dctex` tool). They are ideal for full-screen true-colour backgrounds; a 640x360 background, for example,
-  takes 90 KB of VRAM and almost no RAM. Goody doesn't need them, since all its art is 8-bit and palettes
+  `dctex` tool). They are ideal for full-screen true-colour backgrounds: in the port's texture sample, a
+  640x360 background takes 90 KB of VRAM and under 1 KB of RAM, against 904 KB of RAM as a JPG. Goody doesn't need them, since all its art is 8-bit and palettes
   are the better fit, but they are available.
 - **Each polygon in the right PVR list.** Opaque polygons go to the OP list and on/off transparency goes to
   PT (punch-through). Only real translucency goes to TR, which is the expensive one. Per frame, Goody went
@@ -289,8 +289,9 @@ Estas optimizaciones son del port de BennuGD2 y las aprovecha cualquier juego:
   PAL8, o PAL4 si tienen 16 colores o menos. Eso es 1 byte o medio por píxel, en lugar de 2. Cambiar la
   paleta solo reescribe la paleta, no la textura.
 - **Texturas VQ.** El port también admite texturas comprimidas por cuantización vectorial (`.dtx`,
-  herramienta `dctex`). Son ideales para fondos a pantalla completa en color real; por ejemplo, un fondo de
-  640x360 ocupa 90 KB de VRAM y casi nada de RAM. Goody no las necesita porque todo su arte es de 8 bits y
+  herramienta `dctex`). Son ideales para fondos a pantalla completa en color real: en el ejemplo de texturas
+  del port, un fondo de 640x360 ocupa 90 KB de VRAM y menos de 1 KB de RAM, frente a 904 KB de RAM
+  en JPG. Goody no las necesita porque todo su arte es de 8 bits y
   la paleta es mejor opción, pero están disponibles.
 - **Cada cosa en su lista del PVR.** Lo opaco va a la lista OP y lo que tiene transparencia de todo o nada a
   la PT (punch-through). Solo lo semitransparente va a la TR, que es la cara. En Goody, por fotograma, se
