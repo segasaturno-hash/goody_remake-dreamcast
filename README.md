@@ -1,5 +1,7 @@
 # Goody: The Remake — Dreamcast
 
+![Goody: The Remake running on the Dreamcast](docs/screenshot.jpg)
+
 **[English](#english) · [Español](#español)**
 
 ---
@@ -14,6 +16,11 @@ It is the **first game ported with the BennuGD2 port for the Dreamcast** (Kallis
 (compiler, tools to convert graphics and sound, disc builder) and samples. This repository is its trial by
 fire: a complete, real BennuGD2 game, with scrolling, collision maps, music, sound effects, menus and help
 screens, running on the console. The game works.
+
+> **Beta — testers wanted.** The game runs well in emulators, but it has not yet been tested in depth on
+> real Dreamcast hardware. Everything seems to work, but there may still be issues we haven't found. If you
+> play it, we'd love your feedback: open an issue with what you found (console or emulator, how you loaded
+> it, and what happened). Every report helps make it better.
 
 ### Download
 
@@ -177,6 +184,11 @@ Es el **primer juego portado con el port de BennuGD2 para Dreamcast** (KallistiO
 (compilador, herramientas para convertir gráficos y sonido, creación del disco) y sus ejemplos. Este
 repositorio sirve de prueba de fuego: un juego completo y real de BennuGD2, con scroll, colisiones por mapa de durezas, música, efectos,
 menús y ayuda, corriendo en la consola. El juego funciona.
+
+> **Beta — se buscan betatesters.** El juego funciona bien en emuladores, pero todavía no se ha probado a
+> fondo en una Dreamcast real. Aparentemente todo va bien, aunque puede haber fallos que aún no hemos visto.
+> Si lo juegas, agradeceremos mucho tus comentarios: abre una *issue* contando lo que hayas encontrado
+> (consola o emulador, cómo lo cargaste y qué pasó). Cada aviso ayuda a mejorarlo.
 
 ### Descarga
 
