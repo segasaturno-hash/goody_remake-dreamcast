@@ -2,3 +2,4 @@
 gdi*/
 *.o
 *.elf
+cdi/
