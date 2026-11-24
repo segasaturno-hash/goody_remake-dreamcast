@@ -2,6 +2,9 @@
 
 ![Goody: The Remake running on the Dreamcast](docs/screenshot.jpg)
 
+**Dreamcast port by Alfonso M. González "Ryo Suzuki" — [SEGASaturno](https://www.segasaturno.com)**
+· Non-commercial fan project / Proyecto de aficionados sin ánimo de lucro ([NOTICE](NOTICE.md))
+
 **[English](#english) · [Español](#español)**
 
 ---
@@ -12,7 +15,7 @@ A **SEGA Dreamcast** port of *Goody: The Remake*, the free remake that **Coptron
 of **Opera Soft**'s classic *Goody* (1987, by Gonzalo Suárez).
 
 It is the **first game ported with the BennuGD2 port for the Dreamcast** (KallistiOS) developed by
-**Alfonso "Ryo Suzuki" (SEGASaturno)**. The BennuGD2 port will be released soon, with its full kit
+**Alfonso M. González "Ryo Suzuki" ([SEGASaturno](https://www.segasaturno.com))**. The BennuGD2 port will be released soon, with its full kit
 (compiler, tools to convert graphics and sound, disc builder) and samples. This repository is its trial by
 fire: a complete, real BennuGD2 game, with scrolling, collision maps, music, sound effects, menus and help
 screens, running on the console. The game works.
@@ -39,7 +42,7 @@ to see how it was done or rebuild it.
 | Original | *Goody*, Opera Soft, 1987 (ZX Spectrum, Amstrad CPC, Amstrad PCW, MSX, MSX2, PC). Designed by Gonzalo "Gonzo" Suárez |
 | Remake | *Goody: The Remake*, Coptron Games, May 2005, freeware, unofficial. Made with **Fenix** (compiled to `.dcb`) |
 | Remake team | Programming and direction: José Javier Cárceles · Graphics: David Martínez Armesto and José Javier Cárceles · Music and sound: Álex Belencoso, Raúl Montón and José Javier Cárceles |
-| BennuGD2 | The remake was later adapted to **BennuGD2** (the successor of Fenix and BennuGD) and ships in its official repository, under [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
+| BennuGD2 | The remake was adapted to **BennuGD2** (the successor of Fenix and BennuGD) by **SplinterGU** in 2011, and it ships in the official repository, under [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
 | This repository | That BennuGD2 version, ported to the Dreamcast |
 
 Goody is a thief who must gather tools and money to crack the safe of the Bank of Spain. The remake keeps
@@ -162,15 +165,17 @@ The GDI runs in Flycast. It has not been tested on real Dreamcast hardware yet.
 ### Credits and licence
 
 - *Goody* © 1987 Opera Soft. Designed by Gonzalo Suárez.
-- *Goody: The Remake* © 2005 Coptron Games: José Javier Cárceles, David Martínez Armesto, Álex Belencoso
+- *Goody: The Remake* © 2004–2006 Coptron Games: José Javier Cárceles, David Martínez Armesto, Álex Belencoso
   and Raúl Montón. Freeware.
-- BennuGD2 adaptation: official [BennuGD2](https://github.com/SplinterGU/BennuGD2) repository (SplinterGU
-  and contributors).
-- BennuGD2 port for the Dreamcast and this Goody port: Alfonso "Ryo Suzuki" (SEGASaturno), developed
-  with the help of Claude (Anthropic's AI) as a programming assistant.
+- BennuGD2 adaptation: SplinterGU (2011), in the official [BennuGD2](https://github.com/SplinterGU/BennuGD2)
+  repository.
+- BennuGD2 port for the Dreamcast and this Goody port: Alfonso M. González "Ryo Suzuki"
+  ([SEGASaturno](https://www.segasaturno.com)), developed with the help of Claude (Anthropic's AI) as a
+  programming assistant.
 
-This is a non-profit fan project with no connection to Opera Soft or Coptron Games. The graphics, music and
-sound belong to their authors. If you are one of them and want something removed, please open an issue.
+A non-commercial fan project, made as a hobby, with no connection to Opera Soft, Coptron Games or SEGA. It
+is free and must not be sold. The game's graphics, music and sound belong to their authors; only the code we
+wrote is MIT ([LICENSE](LICENSE)). Full details in [NOTICE.md](NOTICE.md).
 
 ---
 
@@ -180,7 +185,7 @@ Port a **SEGA Dreamcast** de *Goody: The Remake*, el remake gratuito que **Coptr
 del clásico *Goody* de **Opera Soft** (1987, de Gonzalo Suárez).
 
 Es el **primer juego portado con el port de BennuGD2 para Dreamcast** (KallistiOS) desarrollado por
-**Alfonso "Ryo Suzuki" (SEGASaturno)**. El port de BennuGD2 se publicará pronto, con todo su kit
+**Alfonso M. González "Ryo Suzuki" ([SEGASaturno](https://www.segasaturno.com))**. El port de BennuGD2 se publicará pronto, con todo su kit
 (compilador, herramientas para convertir gráficos y sonido, creación del disco) y sus ejemplos. Este
 repositorio sirve de prueba de fuego: un juego completo y real de BennuGD2, con scroll, colisiones por mapa de durezas, música, efectos,
 menús y ayuda, corriendo en la consola. El juego funciona.
@@ -207,7 +212,7 @@ se ha hecho o volver a montarlo.
 | Original | *Goody*, Opera Soft, 1987 (ZX Spectrum, Amstrad CPC, Amstrad PCW, MSX, MSX2, PC). Idea y diseño de Gonzalo "Gonzo" Suárez |
 | Remake | *Goody: The Remake*, Coptron Games, mayo de 2005, gratuito, no oficial. Hecho con **Fenix** (compilaba a `.dcb`) |
 | Equipo del remake | Programación y dirección: José Javier Cárceles · Gráficos: David Martínez Armesto y José Javier Cárceles · Música y efectos: Álex Belencoso, Raúl Montón y José Javier Cárceles |
-| BennuGD2 | El remake se adaptó después a **BennuGD2** (sucesor de Fenix y de BennuGD) y está en su repositorio oficial, en [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
+| BennuGD2 | **SplinterGU** adaptó el remake a **BennuGD2** (sucesor de Fenix y de BennuGD) en 2011, y está en su repositorio oficial, en [`games/Goody`](https://github.com/SplinterGU/BennuGD2/tree/master/games/Goody) |
 | Este repositorio | Esa versión de BennuGD2, portada a la Dreamcast |
 
 Goody es un ladrón que tiene que reunir herramientas y dinero para abrir la caja fuerte del Banco de España.
@@ -332,13 +337,15 @@ El GDI funciona en Flycast. Falta probarlo en una Dreamcast real.
 ### Créditos y licencia
 
 - *Goody* © 1987 Opera Soft. Idea y diseño de Gonzalo Suárez.
-- *Goody: The Remake* © 2005 Coptron Games: José Javier Cárceles, David Martínez Armesto, Álex Belencoso y
+- *Goody: The Remake* © 2004–2006 Coptron Games: José Javier Cárceles, David Martínez Armesto, Álex Belencoso y
   Raúl Montón. Juego gratuito.
-- Adaptación a BennuGD2: repositorio oficial de [BennuGD2](https://github.com/SplinterGU/BennuGD2)
-  (SplinterGU y colaboradores).
-- Port de BennuGD2 a Dreamcast y este port de Goody: Alfonso "Ryo Suzuki" (SEGASaturno), desarrollado
-  con la ayuda de Claude (la IA de Anthropic) como asistente de programación.
+- Adaptación a BennuGD2: SplinterGU (2011), en el repositorio oficial de
+  [BennuGD2](https://github.com/SplinterGU/BennuGD2).
+- Port de BennuGD2 a Dreamcast y este port de Goody: Alfonso M. González "Ryo Suzuki"
+  ([SEGASaturno](https://www.segasaturno.com)), desarrollado con la ayuda de Claude (la IA de Anthropic)
+  como asistente de programación.
 
-Es un proyecto de aficionados, sin ánimo de lucro y sin relación con Opera Soft ni con Coptron Games. Los
-gráficos, la música y los efectos son de sus autores. Si eres autor y quieres que se retire algo, abre una
-*issue*.
+Proyecto de aficionados, hecho por hobby y sin ánimo de lucro, sin relación con Opera Soft, Coptron Games ni
+SEGA. Es gratuito y no se puede vender. Los gráficos, la música y los efectos son de sus autores; solo el
+código que hemos escrito va con licencia MIT ([LICENSE](LICENSE)). Todos los detalles en
+[NOTICE.md](NOTICE.md).
